@@ -5,7 +5,7 @@ module.exports = (api) => {
     plugins: [
       ['module:react-native-dotenv'],
       ['module-resolver', { alias: { '~': './src' } }],
-      'react-native-reanimated/plugin' // this plugin should be the last
+      'react-native-reanimated/plugin'
     ]
   }
 }
